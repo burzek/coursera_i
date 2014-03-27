@@ -71,7 +71,7 @@ public class Solver {
     }
 
     public int moves() {
-        return solutionList.size();
+        return solutionList.size() - 1;
     }
 
     public Iterable<Board> solution() {
